@@ -1,0 +1,111 @@
+body
+{
+    background: linear-gradient(rgba(128,128,128,1),rgba(56,182,255,0.1));
+}
+.main{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.img1{
+    border: : 10px solid black;
+    border-radius: 50%;
+
+}
+.dd{
+    text-align: left;
+    padding-left: 30px!important;
+    width: 45%!important;
+    margin-right: 10px;
+    margin-left: 5%;
+
+
+}
+.bothdiv
+{
+    margin-top: 45px!important;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(166,166,166,0.3)!important;
+
+}
+.login{
+    width: 45%!important;
+
+
+}
+.mid{
+    display: flex;
+}
+#registerdiv
+{
+    background-color: aqua;
+    margin: 10px;
+    display: none;
+    text-align: left;
+    height: 210px;
+    padding: 20px;
+    width: 50%;
+}
+#logindiv
+{
+    background-color: aquamarine;
+    margin: 10px;
+    text-align: left;
+    height: 210px;
+    padding: 20px;
+    width: 50%;
+}
+#divmain
+{
+    text-align: center!important;
+}
+.btn
+{
+    position: relative;
+    left: 37%;
+    width: 100px;
+    bottom: -30px;
+}
+.input
+{
+    float: right;
+}
+.buttonclass
+{
+    width: 100px;
+    margin: 5px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: lightgray;
+    cursor: pointer;
+    margin-top: 5%;
+}
+.buttonclass:hover{
+    background-color: black;
+    color: white;
+}
+.heightdiv
+{
+    height: 350px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+@media (max-width:968px)
+{
+    .input
+    {
+        float: right;
+        width: 130px;
+    }
+    .bothdiv
+    {
+        height: 230px!important;
+    }
+    .btn
+    {
+        position: absolute;
+        width: 100px;
+        bottom: 12%!important;
+    }
+}
